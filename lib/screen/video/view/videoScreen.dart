@@ -21,8 +21,7 @@ class _VideoScreenState extends State<VideoScreen> {
     protrue = Provider.of<VideoProvider>(context, listen: true);
     profalse = Provider.of<VideoProvider>(context, listen: false);
     return SafeArea(
-      child: Scaffold(
-        backgroundColor: Color(0xff2d2d2d),
+      child: Scaffold(backgroundColor: Color(0xff4f4f4f),
         body: ListView.builder(
           itemCount: profalse!.l1.length,
           itemBuilder: (context, index) {
